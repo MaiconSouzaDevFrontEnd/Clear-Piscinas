@@ -8,9 +8,27 @@ body{
     min-height: 100dvh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    background: url("./imgs/XXL_height.webp") no-repeat;
+    
     background-position: center center;
     background-size: cover;
+
+    animation: backgrounds 50s ease infinite;
+    transition: background ;
+}
+
+@keyframes backgrounds {
+    0%{background: url("./imgs/imgWorks/IMG-20250507-WA0095.jpg");
+        background-position: center center;
+        background-size: cover;}
+    35%{background: url("./imgs/imgWorks/IMG-20250507-WA0093.jpg");
+        background-position: center center;
+        background-size: cover;}
+    65%{background: url("./imgs/imgWorks/IMG-20250507-WA0092.jpg");
+        background-position: center center;
+        background-size: cover;}
+    100%{background: url("./imgs/imgWorks/IMG-20250507-WA0092.jpg");
+        background-position: center center;
+        background-size: cover;}
 }
 
 h1,h2{
