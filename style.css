@@ -12,8 +12,8 @@ body{
     background-position: center center;
     background-size: cover;
 
-    animation: backgrounds 50s ease infinite;
-    transition: background ;
+    /*animation: backgrounds 50s ease infinite;
+     transition: background ; */
 }
 
 @keyframes backgrounds {
