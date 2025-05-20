@@ -7,16 +7,12 @@
 body{
     min-height: 100dvh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    
-    background-position: center center;
-    background-size: cover;
-
-    /*animation: backgrounds 50s ease infinite;
-     transition: background ; */
+    scroll-behavior: smooth;
+    transition-delay: 3s;
+    background-color: rgb(241, 241, 241);
 }
 
-@keyframes backgrounds {
+/* @keyframes backgrounds {
     0%{background: url("./imgs/imgWorks/IMG-20250507-WA0095.jpg");
         background-position: center center;
         background-size: cover;}
@@ -29,7 +25,7 @@ body{
     100%{background: url("./imgs/imgWorks/IMG-20250507-WA0092.jpg");
         background-position: center center;
         background-size: cover;}
-}
+} */
 
 h1,h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
