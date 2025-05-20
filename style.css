@@ -9,6 +9,10 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     transition-delay: 3s;
+    background-image: url('./imgs/Backgrounds/3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     background-color: rgb(241, 241, 241);
 }
 
@@ -43,8 +47,9 @@ h1,h2{
 
 .nav{
     margin-top: 1em;
-    background-color: red;
+    
 }
+nav a {color: white;}
 
 .ul-navLinks{ 
     list-style: none;
