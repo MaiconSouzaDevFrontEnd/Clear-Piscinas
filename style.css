@@ -9,10 +9,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     transition-delay: 3s;
-    background-image: url('./imgs/Backgrounds/3.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    
     background-color: rgb(241, 241, 241);
 }
 
@@ -42,7 +39,7 @@ h1,h2{
 }
 
 .header{
-    color: cornflowerblue;
+    
 }
 
 .nav{
@@ -58,13 +55,37 @@ nav a {color: white;}
 
 .navLinks{
     text-decoration: none;
+    color: rgb(2, 46, 128);
 }
 
 .main{
-    margin:5rem auto auto;
+    margin:5rem auto;
     width: 95%;
     max-width: 1310px;
+
     background-color: rgba(68, 66, 66, 0.048);
+    background-image: url('./imgs/Backgrounds/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container-cards{
+}
+.container-cards article{}
+.container-cards article img{width:100%;}
+
+
+.sub-sectMain{
+
+} 
+
+.sub-sectMain .sub-BntWhatsapp{
+
+}
+
+.sub-sectMain .sub-BntTel{
+
 }
 
 .footer{
