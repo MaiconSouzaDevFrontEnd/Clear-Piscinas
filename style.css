@@ -46,7 +46,11 @@ h1,h2{
     margin-top: 1em;
     
 }
-nav a {color: white;}
+nav a {
+    color: white;
+/*     font-family: "Raleway", sans-serif
+ */
+}
 
 .ul-navLinks{ 
     list-style: none;
@@ -71,10 +75,16 @@ nav a {color: white;}
 }
 
 .container-cards{
-}
-.container-cards article{}
-.container-cards article img{width:100%;}
 
+}
+
+.container-cards article{
+
+}
+
+.container-cards article img{
+    width:100%;
+}
 
 .sub-sectMain{
 
@@ -90,4 +100,12 @@ nav a {color: white;}
 
 .footer{
    /*  background-color: aqua; */
+}
+
+@media screen and (max-width:350px){
+    
+    .nav{
+        flex-direction: column;
+        gap: 1rem 0;
+    }
 }
