@@ -5,28 +5,13 @@
 }
 
 body{
+    max-width: 1372px;
     min-height: 100dvh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     transition-delay: 3s;
-    
     background-color: rgb(241, 241, 241);
 }
-
-/* @keyframes backgrounds {
-    0%{background: url("./imgs/imgWorks/IMG-20250507-WA0095.jpg");
-        background-position: center center;
-        background-size: cover;}
-    35%{background: url("./imgs/imgWorks/IMG-20250507-WA0093.jpg");
-        background-position: center center;
-        background-size: cover;}
-    65%{background: url("./imgs/imgWorks/IMG-20250507-WA0092.jpg");
-        background-position: center center;
-        background-size: cover;}
-    100%{background: url("./imgs/imgWorks/IMG-20250507-WA0092.jpg");
-        background-position: center center;
-        background-size: cover;}
-} */
 
 h1,h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,6 +23,7 @@ h1,h2{
     align-items: center;
 }
 
+/* Início do css */
 .header{
     
 }
@@ -48,8 +34,6 @@ h1,h2{
 }
 nav a {
     color: white;
-/*     font-family: "Raleway", sans-serif
- */
 }
 
 .ul-navLinks{ 
@@ -61,7 +45,7 @@ nav a {
     text-decoration: none;
     color: rgb(2, 46, 128);
 }
-
+/* Fim do Header */
 .main{
     margin:5rem auto;
     width: 95%;
