@@ -27,13 +27,14 @@ h1,h2{
 
 /* Início do css */
 .header{
-    
+    padding: 0 1rem;
 }
 
 .nav{
     width:100%;
     margin-top: 1em;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
@@ -64,27 +65,7 @@ nav a {
 }
 
 .ul-sectMain1{
-    
-}
-
-.container-cards{
-    display: grid;
-    grid-template-columns:
-     repeat(3, 1fr);
-    grid-template-rows:
-    auto;
-    gap: .1em;
-}
-
-.container-cards article{
-    width: 100%;
-}
-
-.container-cards article img{
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+    list-style: none;
 }
 
 .sub-sectMain{
@@ -100,7 +81,21 @@ nav a {
 }
 /* Fim sect-main-1 */
 
-.sect-main-2{background-color: rgb(6, 59, 120);}
+.sect-main-2{
+    background-color: rgb(6, 59, 120);
+    width:100%;
+}
+
+.container-cards{
+    width: 100%;
+    column-count: 1;
+}
+
+.container-cards  img{
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
 /* Fim sect-main-2 */
 
@@ -120,5 +115,10 @@ nav a {
     .nav{
         flex-direction: column;
         gap: 1rem 0;
+    }
+
+    .sect-main-1{
+        justify-content: space-around;
+        flex-direction: column;
     }
 }
