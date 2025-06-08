@@ -61,7 +61,11 @@ nav a {
     background-color: aquamarine;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
+
+    background: url("./imgs/Backgrounds/antonio-araujo-OM4VA8MdAwI-unsplash.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .ul-sectMain1{
