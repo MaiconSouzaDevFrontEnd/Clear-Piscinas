@@ -25,10 +25,31 @@ h1,h2{
     align-items: center;
 }
 
+.btn{
+    text-decoration: none;
+}
+
 /* Início do css */
 .header{
     padding: 0 1rem;
+    flex-direction: column;
 }
+
+.box-info{
+    padding: 0.4em 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rede-sociais{
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.links-rede{
+    font-size: 1.5rem;
+}
+/* Fim box-info */
 
 .nav{
     width:100%;
@@ -76,12 +97,13 @@ nav a {
     color: rgb(29, 29, 29);
 }
 
-.sub-sectMain{
-
+.container-sectMain1{
+    flex-direction: column;
+    gap: 2rem;
 } 
 
-.sub-sectMain .sub-BntWhatsapp{
-
+.sub-BntWhatsapp{
+    color: #25d366;
 }
 
 .sub-sectMain .sub-BntTel{
@@ -90,33 +112,37 @@ nav a {
 /* Fim sect-main-1 */
 
 .sect-main-2{
-    background-color: rgb(6, 59, 120);
-    width:100%;
+    padding:.8em;
 }
 
 .container-cards{
-    width: 100%;
+    margin-top: 1.5rem;
+    height: 350px;
+    flex-wrap:wrap;
+    gap: 1.2rem;
 }
 
 .container-cards  img{
     height: 100%;
-    width: 100%;
     object-fit: cover;
     display: block;
 }
 
 /* Fim sect-main-2 */
 
-.sect-main-3{
+/* .sect-main-3{
     height: 30dvh;
     background-color: rgb(1, 97, 49);
-}
+} */
 
 /* Fim sect-main-3 */
 
 /* Fim Main */
 
-.footer{}
+.footer{
+
+
+}
 
 @media screen and (max-width:450px){
     
