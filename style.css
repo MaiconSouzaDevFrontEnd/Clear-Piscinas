@@ -35,27 +35,21 @@ h1,h2{
     flex-direction: column;
 }
 
-.box-info{
-    padding: 0.4em 0;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.rede-sociais{
-    align-items: center;
-    gap: 0.8rem;
-}
-
-.links-rede{
-    font-size: 1.5rem;
-}
-/* Fim box-info */
-
 .nav{
     width:100%;
     margin: 1em 0;
     justify-content: space-between;
     align-items: center;
+}
+
+.navLogo{
+    width:15%;
+    
+}
+
+.title-logo{
+    width: 100%;
+
 }
 
 nav a {
@@ -143,6 +137,24 @@ nav a {
 
 
 }
+
+.sectFooter-info{
+    padding: 0.4em 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.rede-sociais{
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.links-rede{
+    font-size: 1.5rem;
+}
+/* Fim sectFooter-info */
+
+/*___MEDIAS___*/
 
 @media screen and (max-width:450px){
     
