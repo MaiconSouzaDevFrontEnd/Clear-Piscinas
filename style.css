@@ -1,3 +1,16 @@
+:root{
+    --color1:#023059;
+    --color2:#0367A6;
+    --color3:#59D9D9;
+    --color4:#8DF2E8;
+    --color5:#F2F2F2;
+    --color6:#1b6e6ed3;
+    --color7:#29CDF2;
+    --color8:#618C84;
+
+    --black:#000000;
+    --white:#FFFFFF;
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -12,7 +25,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     transition-delay: 3s;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--white);
 }
 
 h1,h2{
@@ -27,12 +40,14 @@ h1,h2{
 
 .btn{
     text-decoration: none;
+    padding: 15px 20px;
 }
 
 /* Início do css */
 .header{
     padding: 0 1rem;
     flex-direction: column;
+    background-color: var(--white);
 }
 
 .nav{
@@ -52,10 +67,6 @@ h1,h2{
 
 }
 
-nav a {
-    color: white;
-}
-
 .ul-navLinks{ 
     list-style: none;
     gap:1rem;
@@ -63,7 +74,7 @@ nav a {
 
 .navLinks{
     text-decoration: none;
-    color: rgb(2, 46, 128);
+    color: var(--color1);
 }
 /* Fim do Header */
 
@@ -73,7 +84,6 @@ nav a {
 
 .sect-main-1{
     height:calc(95dvh - 18px);
-    background-color: aquamarine;
     justify-content: space-between;
     align-items: center;
     padding: 0 1.5rem;
@@ -84,17 +94,61 @@ nav a {
 }
 
 .ul-sectMain1{
-    list-style: none;
+    background-color: var(--color6);
+    padding:2em .8em;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    gap: 2rem 0;
 }
 
 .li-sectMain{
-    color: rgb(29, 29, 29);
+   list-style: none;
+   width: 100%;
+   background-color: var(--color8);
+   padding: 5px;
+   border-radius:5px ;
 }
+
+.btn_linkSectMain{
+    color: var(--color4);
+    padding-left: 0;
+}
+
+.btn_linkSectMain i{
+    font-size: 25px;
+    width: 35px;
+    text-align: center;
+}
+
+/* ___*/
 
 .container-sectMain1{
     flex-direction: column;
     gap: 2rem;
+    background-color: #0367A6;
+    display: none;
 } 
+
+.secMain1-Ident{
+    width: 50%;
+    background-color: red;
+    flex:1;
+    display: none;
+}
+
+.secMain1-Ident picture{
+    width:20%;
+    background-color: rebeccapurple;
+}
+
+.secMain1-Ident picture img{
+    width: 100%;
+    object-fit: cover;
+    transform: rotate(-40deg);
+}
+
 
 .sub-BntWhatsapp{
     color: #25d366;
