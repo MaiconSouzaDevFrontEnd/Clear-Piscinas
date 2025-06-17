@@ -19,7 +19,7 @@
 
 body{
     width: 100%;
-    max-width: 1272px;
+    max-width: 1372px;
     min-height: 100dvh;
     margin: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,26 +45,23 @@ h1,h2{
 
 /* Início do css */
 .header{
-    padding: 0 1rem;
     flex-direction: column;
     background-color: var(--white);
 }
 
 .nav{
     width:100%;
-    margin: 1em 0;
+    padding: .300em .500em;
     justify-content: space-between;
     align-items: center;
 }
 
 .navLogo{
-    width:15%;
-    
+    width:10%; 
 }
 
 .title-logo{
     width: 100%;
-
 }
 
 .ul-navLinks{ 
@@ -73,9 +70,17 @@ h1,h2{
 }
 
 .navLinks{
+    display: block;
+    width: 100%;
     text-decoration: none;
     color: var(--color1);
+    background-color: red;
 }
+
+/* .navLinks::after{
+
+} */
+
 /* Fim do Header */
 
 .main{
