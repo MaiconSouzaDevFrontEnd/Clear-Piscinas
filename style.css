@@ -154,7 +154,7 @@ h1,h2{
 .secMain1-Ident{
     width: 100%;
     margin-bottom: 1rem;
-    background-color:  #02305925;
+    background-color:  #0230593e;
     clip-path: polygon(56% 9%, 65% 0, 88% 0, 100% 10%, 100% 87%, 88% 100%, 13% 100%, 0 86%, 0 20%, 8% 10%);
     border: 5px solid #023059;
     padding: 27px 10px;
@@ -279,20 +279,12 @@ h1,h2{
 
     .sect-main-1{
         justify-content: space-around;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .ul-sectMain1{
     padding:1em .5em;
     gap: 1rem 0;
-}
-
-.li-sectMain{
-   list-style: none;
-   width: 100%;
-   background-color: #48687c3f;
-   padding: 5px;
-   border-radius:20px ;
 }
 
 .btn_linkSectMain{
