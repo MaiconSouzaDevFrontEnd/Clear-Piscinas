@@ -277,6 +277,10 @@ h1,h2{
         gap: 1rem 0;
     }
 
+    .navLogo{
+    width:25%; 
+    }
+
     .sect-main-1{
         justify-content: space-around;
         flex-direction: column-reverse;
