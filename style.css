@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pompiere&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 :root{
     --color1:#023059;
     --color2:#0367A6;
@@ -152,29 +154,28 @@ h1,h2{
 .secMain1-Ident{
     width: 100%;
     margin-bottom: 1rem;
+    background-color:  #02305925;
     clip-path: polygon(56% 9%, 65% 0, 88% 0, 100% 10%, 100% 87%, 88% 100%, 13% 100%, 0 86%, 0 20%, 8% 10%);
-
     border: 5px solid #023059;
-
-    
-    padding: 35px 20px;
-
+    padding: 27px 10px;
 }
 
 .name-secMain1-Ident h2{
     font-size: 190%;
+    
 }
 
 .name-secMain1-Ident h3{
     margin-top: .500rem;
-    font-size: 250%;
+    font-size: 180%;
 }
 
 .name-secMain1-Ident h2,  .name-secMain1-Ident h3{
+    letter-spacing: -1px;
     text-align: right;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Verdana, sans-serif;
     color: white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color:  #023059;
 }
 
