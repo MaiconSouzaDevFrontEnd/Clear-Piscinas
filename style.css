@@ -300,8 +300,9 @@ h1,h2{
 }
 
     .secMain1-Ident{
+    background-color: transparent ;
     clip-path: polygon(56% 9%, 65% 0, 88% 0, 100% 10%, 100% 87%, 88% 100%, 13% 100%, 0 86%, 0 20%, 8% 10%);
     border: 2px solid #023059;
-    padding: 10px 10px;
+    padding: 20px 10px;
 }
 }
