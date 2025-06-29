@@ -59,7 +59,7 @@ h1,h2{
 }
 
 .navLogo{
-    width:7rem; 
+    width:8%; 
 }
 
 .title-logo{
@@ -100,93 +100,37 @@ h1,h2{
 
 .sect-main-1{
     height:calc(90dvh - 20px);
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.5rem;
+    padding: 0.800em;
     background:url("./imgs/Backgrounds/amenities2.jpg") no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.li-sectMain{
-   list-style: none;
+.sub-sectMain1, .secMain1-Ident {
+    justify-content: space-between;
+    flex-direction: column;
 }
 
-.btn_linkSectMain{
-    display: block;
-    color: transparent;
-    padding: 15px 25px; 
+.secMain1-Ident{
     width: 100%;
-    border-radius: 30px;
-    text-shadow: 0 0 var(--white);
-    background-color: #023059;
-    margin-top: 15px;
-    transition: all 500ms ease-in-out;
+    padding: 27px 10px;
 }
-
-.btn_linkSectMain i{
-    font-size: 20px;
-}
-
-.btn_linkSectMain:hover, .btn_linkSectMain:focus{
-    background-color: var(--white);
-    text-shadow: 0 0 #023059;
-    box-shadow: 0 0 1px 1px #023059; 
-}
-/*_______*/
-
-.sub-sectMain1{
-    padding: 30px 20px;
-}
-
-.logo-secMain1-Ident{
-    display: block;
-    width: 250px;
-    margin-left: auto;
-    margin-bottom: 2rem;
-}
-
-.logo-secMain1-Ident img{
-    width: 100%;
-    object-fit: contain;
-    display: block;
-}
-
-/* foto--- */
-/*.secMain1-Ident picture{
-    display: none;
-    transform: translate(30%, 28%);
-    width: 18rem;
-    overflow: hidden;
-    border-radius: 50% 4% 50% 50%;
-    border: 5px solid #023059; 
-    z-index: 1;
-}
-
-.secMain1-Ident picture img{
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    transform: translateY(35px) rotate(-40deg);
-} */
-
-/* _______ */
 
 .name-secMain1-Ident h2{
-    font-size: 280%;
+    font-size: 190%;
 }
 
 .name-secMain1-Ident h3{
     margin-top: .500rem;
-    font-size: 250%;
+    font-size: 180%;
 }
 
 .name-secMain1-Ident h2,  .name-secMain1-Ident h3{
-    letter-spacing: 1px;
+    letter-spacing: -1px;
     text-align: right;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Verdana, sans-serif;
     color: white;
-    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color:  #023059;
 }
 
@@ -194,14 +138,11 @@ h1,h2{
 
 .container-sectMain1{
     width: 100%;
-    margin-top: 5em;
     gap: 2rem;
-    justify-content: space-between;
-    align-items: center;
 } 
 
 .sub-BntWhatsapp{
-    background-color: #19ec67;
+    background-color: #25d366;
     border: 1px solid #023059;
     font-weight: 900;
 }
@@ -210,24 +151,7 @@ h1,h2{
     background-color: #023059;
 }
 
-.sub-BntWhatsapp:hover{
-    background-color: #05b846;
-}
-
-.sub-BntTel:hover{
-    background-color: #114a7c
-}
-
-.sub-BntWhatsapp:focus{
-    background-color: #05b846;
-}
-
-.sub-BntTel:focus               {
-    background-color: #114a7c
-}
-
 .sub-BntWhatsapp, .sub-BntTel{
-    border: 1px solid white;
     color: white;
     border-radius: 10px;
 }
@@ -238,6 +162,44 @@ h1,h2{
     padding:.8em;
 }
 
+.ulContCards{
+    padding:1em .5em;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .8rem 0;
+}
+
+.liCard{
+   list-style: none;
+   width: 100%;
+   padding: 5px;
+   border-radius:20px ;
+   
+}
+
+.linkCards{
+    display: block;
+    background-color: #023059;
+    color: transparent;
+    padding: 5px 15px; 
+    width: 100%;
+    border-radius: 30px;
+    text-shadow: 0 0 var(--white);
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+.linkCards i{
+    font-size: 20px;
+}
+
+.linkCards:hover, .linkCards:focus{
+    background-color: var(--white);
+    text-shadow: 0 0 #023059;
+    box-shadow: 0 0 1px 1px #023059; 
+}
+
 .container-cards{
     margin-top: 1.5rem;
     height: 350px;
@@ -245,11 +207,6 @@ h1,h2{
     gap: 1.2rem;
 }
 
-.container-cards  img{
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
 
 /* Fim sect-main-2 */
 
@@ -262,10 +219,10 @@ h1,h2{
 
 /* Fim Main */
 
-.footer{
+/* .footer{
 
 
-}
+} */
 
 .sectFooter-info{
     padding: 0.4em 0;
@@ -301,16 +258,17 @@ h1,h2{
         flex-direction: column-reverse;
     }
 
-    .ul-sectMain1{
+    .ulContCards{
     padding:1em .5em;
     gap: 1rem 0;
     }
 
-    .btn_linkSectMain{
+    .linkCards{
         font-size: 15px;
     }
 
-    .btn_linkSectMain i{
+    .linkCards i{
         font-size: 16px;
     }
+
 }
