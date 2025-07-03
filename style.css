@@ -106,8 +106,13 @@ h1,h2{
     background-size: cover;
 }
 
+.sub-sectMain1{
+    
+    flex: 1;
+    background-color: red;
+}
+
 .sub-sectMain1, .secMain1-Ident {
-    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -127,7 +132,7 @@ h1,h2{
 
 .name-secMain1-Ident h2,  .name-secMain1-Ident h3{
     letter-spacing: -1px;
-    text-align: right;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif, Verdana, sans-serif;
     color: white;
     -webkit-text-stroke-width: 1.5px;
@@ -141,17 +146,18 @@ h1,h2{
     gap: 2rem;
 } 
 
+.sub-BntTel{
+    background-color: #023059;
+    border: 2px solid #ffffff;
+}
+
 .sub-BntWhatsapp{
     background-color: #25d366;
-    border: 1px solid #023059;
+    border: 2px solid #023059;
     font-weight: 900;
 }
 
-.sub-BntTel{
-    background-color: #023059;
-}
-
-.sub-BntWhatsapp, .sub-BntTel{
+.sub-BntTel, .sub-BntWhatsapp{
     color: white;
     border-radius: 10px;
 }
