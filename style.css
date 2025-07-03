@@ -104,52 +104,54 @@ h1,h2{
     background:url("./imgs/Backgrounds/amenities2.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-}
 
-.sub-sectMain1{
-    
-    flex: 1;
-    background-color: red;
-}
-
-.sub-sectMain1, .secMain1-Ident {
-    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .secMain1-Ident{
+    margin-right: 1em;
+}
+
+.logoIdent{
+    display: block;
+    width: 230px;
+    margin: auto;
+}
+
+.logoIdent img{
+    object-fit: cover;
     width: 100%;
-    padding: 27px 10px;
+}
+
+.name-secMain1-Ident{
+    margin: 1rem 0 4rem
 }
 
 .name-secMain1-Ident h2{
-    font-size: 190%;
+    font-size: 2em;
 }
 
 .name-secMain1-Ident h3{
     margin-top: .500rem;
-    font-size: 180%;
+    font-size: 1.8em;
 }
 
 .name-secMain1-Ident h2,  .name-secMain1-Ident h3{
     letter-spacing: -1px;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif, Verdana, sans-serif;
     color: white;
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color:  #023059;
+    -webkit-text-stroke-color:  #000000 ;
+    
+    text-align: center;
 }
 
 /* _______ */
 
 .container-sectMain1{
     width: 100%;
-    gap: 2rem;
+    justify-content: space-between;
 } 
-
-.sub-BntTel{
-    background-color: #023059;
-    border: 2px solid #ffffff;
-}
 
 .sub-BntWhatsapp{
     background-color: #25d366;
@@ -157,7 +159,12 @@ h1,h2{
     font-weight: 900;
 }
 
-.sub-BntTel, .sub-BntWhatsapp{
+.sub-BntTel{
+    background-color: #023059;
+    margin-right: 10px;
+}
+
+.sub-BntWhatsapp, .sub-BntTel{
     color: white;
     border-radius: 10px;
 }
