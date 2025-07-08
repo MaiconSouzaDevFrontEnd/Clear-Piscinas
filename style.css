@@ -172,14 +172,16 @@ h1,h2{
 /* Fim sect-main-1 */
 
 .sect-main-2{
-    background: url("./imgs/") no-repeat bottom;
-    background-size: cover;
+    margin: 5em 0;
 }
 
 .title-services{
-    margin-top: 2rem;
+    margin-top: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    letter-spacing: 3px;
     color: #023059;
+    text-transform: uppercase;
 }
 
 .container-cards{
@@ -191,16 +193,17 @@ h1,h2{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1em;
 }
 
 .liCard{
    list-style: none;
    display: flex;
-   width: 500px;
-   justify-content: space-around;
+   width: 400px;
+   justify-content: center;
    align-items: center;
-   gap: 10px;
-   padding: 20px;
+   
+   /* padding: 20px; */
   
    margin-bottom: 10px;
    
@@ -211,7 +214,6 @@ h1,h2{
     display: block;
     width: 100%;
     height: 200px;
-    border: 2px solid #f8f8f8;
 }
 
 .liCard picture img{
@@ -228,8 +230,6 @@ h1,h2{
     padding: 5px 15px; 
     height: 50px;
     width: 100%;
-    border-radius: 30px;
-    border: 1px solid white;
     text-shadow: 0 0 var(--white);
     text-decoration: none;
     transition: all 500ms ease-in-out;
@@ -243,22 +243,15 @@ h1,h2{
     font-size: 20px;
 }
 
-.linkCards:hover, .linkCards:focus{
-    background-color: var(--white);
-    text-shadow: 0 0 #023059;
-    box-shadow: 0 0 1px 1px #023059; 
-}
-
-
-
 /* Fim sect-main-2 */
 
 .sect-main-3{
    padding: 1em;
 } 
 
-.title-localizacao-main3{
+.title-localizacao-main4{
     background-color: #023059;
+    font-size: 1.5em;
     color: white;
     margin-top: 5em;
     text-align: center;
